@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-language-code="en" data-url-key="localized.artist" data-url-value0="demo-artist" data-rebase-localized="../.." data-rebase-shared="../.." data-rebase-media="../../media" data-rebase-thumb="../../thumb" data-rebase-lib="../../static-5p6/lib" data-rebase-data="../../data">
+    <head>
+        <title data-without-wiki-name="Demo Artist">Demo Artist | Skeleton Wiki</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../../static-5p6/css/site.css">
+        <style class="color-style" data-color="#0088ff">
+            :root {
+                --primary-color: #0088ff;
+                --dark-color: #00284a;
+                --dim-color: #294678;
+                --deep-color: #003563;
+                --deep-ghost-color: #003563cc;
+                --abyss-color: #001e38;
+                --light-ghost-color: #00fcff14;
+                --bg-color: #161616cc;
+                --bg-black-color: #000a12cc;
+                --shadow-color: #0d0d0dcc;
+                --page-primary-color: #0088ff;
+            }
+        </style>
+        <style class="static-url-style">
+            .image-media-link::after {
+                mask-image: url("../../static-5p6/misc/image.svg");
+            }
+        </style>
+        <style class="wallpaper-style" data-wallpaper-mode="one">
+            body::before {
+                background-image: url("../../media/bg.jpg");
+            }
+        </style>
+        <script src="../../static-5p6/lib/chroma-js/chroma.min.cjs"></script>
+        <script blocking="render" src="../../static-5p6/js/lazy-loading.js"></script>
+        <script blocking="render" type="module" src="../../static-5p6/js/client/index.js"></script>
+    </head>
+    <body>
+        <div id="page-container" class="showing-sidebar-left sidebars-in-content-column">
+            <div id="skippers">
+                <span>Skip to:</span>
+                <div class="skipper-list">
+                    <span class="skipper" data-for="content"><a href="#content">Content</a></span>
+                    <span class="skipper" data-for="sidebar-left"><a href="#sidebar-left">Sidebar</a></span>
+                    <span class="skipper" data-for="header"><a href="#header">Header</a></span>
+                    <span class="skipper" data-for="footer"><a href="#footer">Footer</a></span>
+                </div>
+                <div class="skipper-list">
+                    <span class="skipper" data-for="tracks"><a href="#tracks">Tracks</a></span>
+                    <span class="skipper" data-for="art"><a href="#art">Artworks</a></span>
+                </div>
+            </div>
+            <nav id="header" class="nav-has-main-links">
+                <div class="nav-main-links nav-links-hierarchical">
+                    <span class="nav-link"><span class="nav-link-content"><a href="../..">Skeleton Wiki</a></span></span>
+                    <span class="nav-link">
+                        <span class="nav-link-content">Artist: <a href="../demo-artist/">Demo Artist</a></span>
+                        <span class="nav-link-accent">(<span class="dot-switcher interpage"><span><a href="../demo-artist/gallery/">Gallery</a></span></span>)</span>
+                    </span>
+                </div>
+            </nav>
+            <div class="layout-columns">
+                <div class="sidebar-column sidebar-multiple" id="sidebar-left">
+                    <div class="sidebar wiki-search-sidebar-box">
+                        <label class="wiki-search-label"><input class="wiki-search-input" type="search" placeholder="Search for anything"></label>
+                        <template class="wiki-search-preparing-string">Preparing...</template>
+                        <template class="wiki-search-loading-data-string">Loading data...</template>
+                        <template class="wiki-search-searching-string">Searching...</template>
+                        <template class="wiki-search-failed-string">There was an internal error, and your search couldn't be processed. Reloading this page and trying again may help. Sorry for the trouble!</template>
+                        <template class="wiki-search-no-results-string">No results for this query, sorry! Check spelling and use complete words.</template>
+                        <template class="wiki-search-back-string">Return to: <slot name="page"></slot></template>
+                        <template class="wiki-search-current-result-string">(you are here)</template>
+                        <template class="wiki-search-end-search-string">(OK, I'm done searching now.)</template>
+                        <template class="wiki-search-album-result-kind-string">(album)</template>
+                        <template class="wiki-search-artist-result-kind-string">(artist)</template>
+                        <template class="wiki-search-flash-result-kind-string">(flash)</template>
+                        <template class="wiki-search-group-result-kind-string">(group)</template>
+                        <template class="wiki-search-single-result-kind-string">(single)</template>
+                        <template class="wiki-search-tag-result-kind-string">(art tag)</template>
+                        <template class="wiki-search-group-result-disambiguator-string">(<slot name="disambiguator"></slot>)</template>
+                        <template class="wiki-search-flash-result-disambiguator-string">(in <slot name="disambiguator"></slot>)</template>
+                        <template class="wiki-search-track-result-album-disambiguator-string">(from <slot name="disambiguator"></slot>)</template>
+                        <template class="wiki-search-track-result-artist-disambiguator-string">(by <slot name="disambiguator"></slot>)</template>
+                        <template class="wiki-search-album-result-filter-string">Releases</template>
+                        <template class="wiki-search-artist-result-filter-string">Artists</template>
+                        <template class="wiki-search-flash-result-filter-string">Flashes</template>
+                        <template class="wiki-search-group-result-filter-string">Groups</template>
+                        <template class="wiki-search-track-result-filter-string">Tracks</template>
+                        <template class="wiki-search-tag-result-filter-string">Art Tags</template>
+                    </div>
+                </div>
+                <main id="content" class="has-subtitle">
+                    <div class="content-sticky-heading-root">
+                        <div class="content-sticky-heading-anchor">
+                            <div class="content-sticky-heading-container">
+                                <div class="content-sticky-heading-row">
+                                    <h1>
+                                        <span class="reference-collapsed-heading" inert>Demo Artist</span>
+                                        Demo Artist
+                                    </h1>
+                                </div>
+                                <div class="content-sticky-subheading-row"><h2 class="content-sticky-subheading"></h2></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-sticky-heading-root" inert>
+                        <div class="content-sticky-heading-anchor">
+                            <div class="content-sticky-heading-container">
+                                <div class="content-sticky-heading-row">
+                                    <h1>
+                                        <span class="reference-collapsed-heading" inert>Demo Artist</span>
+                                        Demo Artist
+                                    </h1>
+                                </div>
+                                <div class="content-sticky-subheading-row"><h2 class="content-sticky-subheading"></h2></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-content-container">
+                        <p>Visit on <a class="external-link" href="https://www.wikipedia.org/">Wikipedia</a>.</p>
+                        <p>View <a href="../demo-artist/gallery/">art gallery</a>!</p>
+                        <p>Jump to: <a href="#tracks">Tracks</a>, <a href="#art">Artworks</a>.</p>
+                        <h2 class="content-heading" tabindex="0" id="tracks"><span class="content-heading-main-title">Tracks</span></h2>
+                        <p>Demo Artist has contributed ~2:12 minutes of music shared on this wiki.</p>
+                        <dl>
+                            <dt class="group-contributions-sorted-by-count visible">Contributed music to groups: (<a class="group-contributions-sort-button" href="#">Sorting by count.</a>)</dt>
+                            <dd class="group-contributions-sorted-by-count visible">
+                                <table class="group-contributions-table">
+                                    <tr>
+                                        <td class="group-contributions-link-cell"><span><a href="../../group/crocodile-crew/">Crocodile Crew</a></span></td>
+                                        <td class="group-contributions-metrics-cell">(2 tracks)</td>
+                                    </tr>
+                                </table>
+                            </dd>
+                            <dt class="group-contributions-sorted-by-duration">Contributed music to groups: (<a class="group-contributions-sort-button" href="#">Sorting by duration.</a>)</dt>
+                            <dd class="group-contributions-sorted-by-duration">
+                                <table class="group-contributions-table">
+                                    <tr>
+                                        <td class="group-contributions-link-cell"><span><a href="../../group/crocodile-crew/">Crocodile Crew</a></span></td>
+                                        <td class="group-contributions-metrics-cell">(2:12)</td>
+                                    </tr>
+                                </table>
+                            </dd>
+                            <dt id="tracks-demo-album-0"><a href="../../album/demo-album/">Demo Album</a> (1/22/2021; ~2:12)</dt>
+                            <dd>
+                                <ul>
+                                    <li>
+                                        (0:01) 
+                                        <a href="../../track/abracadabra/">Abracadabra</a>
+                                    </li>
+                                    <li>
+                                        (2:11) 
+                                        <a href="../../track/spanish-flea/">Spanish Flea</a>
+                                    </li>
+                                </ul>
+                            </dd>
+                        </dl>
+                        <h2 class="content-heading" tabindex="0" id="art"><span class="content-heading-main-title">Artworks</span></h2>
+                        <p>View <a href="../demo-artist/gallery/">art gallery</a>! Or browse the list:</p>
+                        <dl>
+                            <dt class="group-contributions-sorted-by-count visible">Contributed artworks to groups:</dt>
+                            <dd class="group-contributions-sorted-by-count visible">
+                                <table class="group-contributions-table">
+                                    <tr>
+                                        <td class="group-contributions-link-cell"><span><a href="../../group/crocodile-crew/">Crocodile Crew</a></span></td>
+                                        <td class="group-contributions-metrics-cell">(1 artwork)</td>
+                                    </tr>
+                                </table>
+                            </dd>
+                            <dt><a href="../../album/demo-album/">Demo Album</a> (1/22/2021)</dt>
+                            <dd><ul><li><i>(cover art)</i></li></ul></dd>
+                        </dl>
+                    </div>
+                </main>
+            </div>
+            <footer id="footer"><div class="footer-content"><p>Skeleton Wiki is a template to help you start using <a class="external-link from-content" href="https://github.com/hsmusic/hsmusic-wiki/">hsmusic-wiki<span class="normal-content">!</span></a> Media files are grabbed from <a class="external-link from-content" href="https://homestuck.com/">Homestuck</a>.</p></div></footer>
+        </div>
+        <div id="image-overlay-container">
+            <div id="image-overlay-content-container">
+                <span id="image-overlay-image-area">
+                    <span id="image-overlay-image-layout">
+                        <img id="image-overlay-image">
+                        <img id="image-overlay-image-thumb">
+                    </span>
+                </span>
+                <div id="image-overlay-action-container">
+                    <div id="image-overlay-action-content-without-size">View <a class="image-overlay-view-original">original file</a>.</div>
+                    <div id="image-overlay-action-content-with-size">
+                        View <a class="image-overlay-view-original">original file</a> (<span><span id="image-overlay-file-size-kilobytes"><span class="image-overlay-file-size-count"></span> kB</span><span id="image-overlay-file-size-megabytes"><span class="image-overlay-file-size-count"></span> MB</span></span>).
+                        <span id="image-overlay-file-size-warning">(Heads up! If you're on a mobile plan, this is a large download.)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

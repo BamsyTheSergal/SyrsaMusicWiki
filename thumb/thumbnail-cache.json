@@ -1,0 +1,8 @@
+{
+  "album-art/syrsa/cover.jpg": {"specbust":2,"tackbust":{"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"4850adbdaa0e85b0a35979a812e5c1f1","width":620,"height":620,"mtime":1776185088030},
+  "album-art/syrsa/daunter.jpg": {"specbust":2,"tackbust":{"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"0e3acfd94a2e19053a2ce5f14690da2e","width":606,"height":552,"mtime":1776191768061},
+  "album-art/syrsa/kybrothesian.jpg": {"specbust":2,"tackbust":{"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"c7ba97ef1456fc336d0512cc7e18f9b5","width":593,"height":633,"mtime":1776186063290},
+  "album-art/syrsa/the-slavuics.jpg": {"specbust":2,"tackbust":{"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"ef3542ac4da2c0c24c58c62796cf69fd","width":458,"height":458,"mtime":1776190747642},
+  "bg.jpg": {"specbust":2,"tackbust":{"huge":0,"semihuge":0,"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"02575526cfaf0a7d1d3e1da3572f5895","width":1920,"height":1080,"mtime":1776181842911},
+  "misc/alt-john.jpg": {"specbust":2,"tackbust":{"large":0,"medium":0,"small":0,"adorb":1,"mini":2},"md5":"ab5296e275dbe188077bc889ce652df3","width":447,"height":447,"mtime":1776191520080}
+}

@@ -1,0 +1,11 @@
+The presence of this file (by its name, not its contents)
+indicates hsmusic may delete everything contained in this
+directory (the one which directly contains this file, *not*
+any further-up parent directories).
+
+If you make edits, or add any files, they will be deleted or
+overwritten the next time you run the build.
+
+If you delete *this* file, hsmusic will error during the next
+build, and will ask that you delete the containing directory
+yourself.
