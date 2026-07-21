@@ -3,8 +3,13 @@
   "album-art/alneda/thilian-sanctum.jpg": 130785,
   "album-art/cythas/cover.jpg": 25462,
   "album-art/edmyron/cover.jpg": 34853,
+  "album-art/locust/Aberrant.jpg": 569489,
+  "album-art/locust/Abyabuka.jpg": 35933,
   "album-art/locust/battlecruiser.jpg": 861933,
+  "album-art/locust/Caycreas.jpg": 35933,
+  "album-art/locust/Citadel.jpg": 35933,
   "album-art/locust/cover.jpg": 35933,
+  "album-art/locust/Crissyris.jpg": 404664,
   "album-art/phasmia/cover.jpg": 35032,
   "album-art/phasmia/starboy.jpg": 296507,
   "album-art/rmx/cover.jpg": 39229,
@@ -21,6 +26,6 @@
   "album-art/tyttuut/cover.jpg": 37502,
   "album-art/tyttuut/tyttuut.jpg": 307393,
   "bg.jpg": 537093,
-  "file-size-cache.json": 963,
+  "file-size-cache.json": 1006,
   "_separator": "/"
 }
